@@ -1,0 +1,662 @@
+@font-face {
+    font-family: 'MrRobot';
+    src: url(./fonts/mr-robot/mr-robot.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ZCOOL kuaile';
+    src: url(./fonts/ZCOOL_KuaiLe/ZCOOLKuaiLe-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media  screen and (max-width: 392px) {
+    html, body {
+        background-color: black;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        overflow-y: hidden; 
+    }
+    .big_container {
+        display: flex;
+        height: 100%;
+    }
+    #div1{
+        display: none;
+    }
+    #div2 {
+        display: none;
+    }
+    #div11{
+        display: none;
+    }
+    #div22 {
+        display: none;
+    }
+    .down_container {
+        display: flex;
+        width: 30%;
+        height: 100%;
+    }
+    .down_container div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+        width: 33%;
+        cursor: default;
+    }
+    .down_container div p {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.30em;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .down_container div p:hover {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.60em;
+        font-weight: 700;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .down_container2 {
+        display: flex;
+        justify-content: flex-end;
+        width: 30%;
+        height: 100%;
+        cursor: default;
+    }
+    .down_container2 div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: end;
+        height: 100%;
+        width: 33%;
+        cursor: default;
+    }
+    .down_container2 div p {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.30em;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .down_container2 div p:hover {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.60em;
+        font-weight: 700;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .container2{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container2 div {
+        text-align: center;
+    }
+    .hello {
+        font-family: "MrRobot";
+        font-size: 2.6em;
+        color: #E70B0B;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+        cursor: default;
+        margin: 0;
+    }
+    .hello2 {
+        font-family: "MrRobot";
+        font-size: 1.6em;
+        color: #E70B0B;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+        cursor: default;
+        margin: 0;
+    }
+    .hello2:hover {
+        cursor: pointer;
+        font-size: 1.7em;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 692px) and (min-width: 392px){
+    html, body {
+        background-color: black;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        overflow-y: hidden; 
+    }
+    .big_container {
+        display: flex;
+        height: 100%;
+    }
+    #div1{
+        display: none;
+    }
+    #div2 {
+        display: none;
+    }
+    #div11{
+        display: none;
+    }
+    #div22 {
+        display: none;
+    }
+    .down_container {
+        display: flex;
+        width: 30%;
+        height: 100%;
+    }
+    .down_container div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+        width: 33%;
+        cursor: default;
+    }
+    .down_container div p {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.30em;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .down_container div p:hover {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.60em;
+        font-weight: 700;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .down_container2 {
+        display: flex;
+        justify-content: flex-end;
+        width: 30%;
+        height: 100%;
+        cursor: default;
+    }
+    .down_container2 div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: end;
+        height: 100%;
+        width: 33%;
+        cursor: default;
+    }
+    .down_container2 div p {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.30em;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .down_container2 div p:hover {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.60em;
+        font-weight: 700;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .container2{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container2 div {
+        text-align: center;
+    }
+    .hello {
+        font-family: "MrRobot";
+        font-size: 2.6em;
+        color: #E70B0B;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+        cursor: default;
+        margin: 0;
+    }
+    .hello2 {
+        font-family: "MrRobot";
+        font-size: 1.8em;
+        color: #E70B0B;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+        cursor: default;
+        margin: 0;
+    }
+    .hello2:hover {
+        cursor: pointer;
+        font-size: 1.9em;
+        margin: 0;
+    }
+}
+
+@media  screen and (max-width: 864px) and (min-width: 692px) {
+    html, body {
+        background-color: black;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        overflow-y: hidden; 
+    }
+    .big_container {
+        display: flex;
+        height: 100%;
+    }
+    #div1{
+        display: none;
+    }
+    #div2 {
+        display: none;
+    }
+    #div11{
+        display: none;
+    }
+    #div22 {
+        display: none;
+    }
+    .down_container {
+        display: flex;
+        width: 30%;
+        height: 100%;
+    }
+    .down_container div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+        width: 33%;
+        cursor: default;
+    }
+    .down_container div p {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.30em;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .down_container div p:hover {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.60em;
+        font-weight: 700;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .down_container2 {
+        display: flex;
+        justify-content: flex-end;
+        width: 30%;
+        height: 100%;
+        cursor: default;
+    }
+    .down_container2 div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: end;
+        height: 100%;
+        width: 33%;
+        cursor: default;
+    }
+    .down_container2 div p {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.30em;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .down_container2 div p:hover {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.60em;
+        font-weight: 700;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .container2{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container2 div {
+        text-align: center;
+    }
+    .hello {
+        font-family: "MrRobot";
+        font-size: 2.6em;
+        color: #E70B0B;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+        cursor: default;
+        margin: 0;
+    }
+    .hello2 {
+        font-family: "MrRobot";
+        font-size: 1.8em;
+        color: #E70B0B;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+        cursor: default;
+        margin: 0;
+    }
+    .hello2:hover {
+        cursor: pointer;
+        font-size: 2em;
+        margin: 0;
+    }
+}
+@media screen and (max-width:980px) and (min-width: 864px) {
+    html, body {
+        background-color: black;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        overflow-y: hidden; 
+    }
+    .big_container {
+        display: flex;
+        height: 100%;
+    }
+    #div1{
+        display: none;
+    }
+    #div11 {
+        display: none;
+    }
+    .down_container {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        height: 100%;
+    }
+    .down_container div {
+        height: 100%;
+        width: 33%;
+        cursor: default;
+    }
+    .down_container div p {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.30em;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .down_container div p:hover {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.60em;
+        font-weight: 700;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .down_container2 {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        height: 100%;
+        cursor: default;
+    }
+    .down_container2 div {
+        text-align: end;
+        height: 100%;
+        width: 33%;
+        cursor: default;
+    }
+    .down_container2 div p {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.30em;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .down_container2 div p:hover {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.60em;
+        font-weight: 700;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .container2{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container2 div {
+        text-align: center;
+    }
+    .hello {
+        font-family: "MrRobot";
+        font-size: 2.6em;
+        color: #E70B0B;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+        cursor: default;
+        margin: 0;
+    }
+    .hello2 {
+        font-family: "MrRobot";
+        font-size: 1.8em;
+        color: #E70B0B;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+        cursor: default;
+        margin: 0;
+    }
+    .hello2:hover {
+        cursor: pointer;
+        font-size: 2em;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1268px) and (min-width: 980px) {
+    html, body {
+        background-color: black;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        overflow-y: hidden; 
+    }
+    .big_container {
+        display: flex;
+        height: 100%;
+    }
+    .down_container {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        height: 100%;
+    }
+    .down_container div {
+        height: 100%;
+        width: 33%;
+        cursor: default;
+    }
+    .down_container div p {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.30em;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .down_container div p:hover {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.60em;
+        font-weight: 700;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .container2{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container2 div {
+        text-align: center;
+    }
+    .hello {
+        font-family: "MrRobot";
+        font-size: 2.9em;
+        color: #E70B0B;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+        cursor: default;
+        margin: 0;
+    }
+    .hello2 {
+        font-family: "MrRobot";
+        font-size: 1.9em;
+        color: #E70B0B;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+        cursor: default;
+        margin: 0;
+    }
+    .hello2:hover {
+        cursor: pointer;
+        font-size: 2em;
+        margin: 0;
+    }
+    .down_container2 {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        height: 100%;
+        cursor: default;
+    }
+    .down_container2 div {
+        text-align: end;
+        height: 100%;
+        width: 33%;
+        cursor: default;
+    }
+    .down_container2 div p {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.30em;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .down_container2 div p:hover {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.60em;
+        font-weight: 700;
+        color: #E70B0B;
+        cursor: default;
+    }
+}
+
+@media screen and (min-width:1268px) {
+    html, body {
+        background-color: black;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        overflow-y: hidden; 
+    }
+    .big_container {
+        display: flex;
+        height: 100%;
+    }
+    .down_container {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        height: 100%;
+    }
+    .down_container div {
+        height: 100%;
+        width: 33%;
+        cursor: default;
+    }
+    .down_container div p {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.30em;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .down_container div p:hover {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.60em;
+        font-weight: 700;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .down_container2 {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        height: 100%;
+        cursor: default;
+    }
+    .down_container2 div {
+        text-align: end;
+        height: 100%;
+        width: 33%;
+        cursor: default;
+    }
+    .down_container2 div p {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.30em;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .down_container2 div p:hover {
+        font-family: 'ZCOOL kuaile';
+        font-size: 1.60em;
+        font-weight: 700;
+        color: #E70B0B;
+        cursor: default;
+    }
+    .container2{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container2 div {
+        text-align: center;
+    }
+    .hello {
+        font-family: "MrRobot";
+        font-size: 3.8em;
+        color: #E70B0B;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+        cursor: default;
+        margin: 0;
+    }
+    .hello2 {
+        font-family: "MrRobot";
+        font-size: 2.8em;
+        color: #E70B0B;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+        cursor: default;
+        margin: 0;
+    }
+    .hello2:hover {
+        cursor: pointer;
+        font-size: 2.9em;
+        margin: 0;
+    }
+}
